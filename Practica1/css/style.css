@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #53d827;
+    box-shadow: 0 0 15px #008235;
+    height: 100px;
+}
+nav{
+    border-radius: 45px;
+    float: right;
+    width: 400px;
+    height: 80%;
+    background-color: #008235;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+ul{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+li{
+    border-radius: 20px;
+    background-color: #53d827;
+    float: left;
+    width: 15%;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.div-main{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+aside{
+    border-radius: 20px;
+    background-color: #4f4e4e;
+    float: left;
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+main{
+    background-color: white;
+    float: right;
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.aside_aticle{
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    border-radius: 20px; 
+}
+.aside_aticle h2{
+    width: 80%;
+    height: 20%;    
+    padding: 15px 0 0 15px;
+}
+.aside_aticle p{
+    
+    width: 80%;
+    height: 70%;    
+    padding: 15px 0 0 15px;
+}
+.main_article{
+    background-color: #f0c94b;
+    width: 45%;
+    height: 30%;
+    border-radius: 20px; 
+}
+.main_article h2{
+    border-radius: 20px;
+    background-color: #f1f2f2;
+    width: 80%;
+    height: 20%;    
+    padding: 15px 0 0 15px;
+}
+.main_article p{
+    float: right;
+    border-radius: 20px;
+    background-color: #fe9b00   ;
+    width: 80%;
+    height: 50%;    
+    padding: 15px 0 0 15px;
+    margin: 10px 10px 0 0;
+}
+footer{
+    background-color:#38e982 ;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: white;
+    border-radius: 20px;
+    background-color: #008235;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
